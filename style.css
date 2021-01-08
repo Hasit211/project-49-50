@@ -1,0 +1,37 @@
+h1{
+    color :rgb(43, 140, 224)
+}
+
+/*{
+    border: solid;
+}*/
+.header{
+    background-color: rgb(187, 247, 22);
+    display:flex;
+    justify-content : space-around;
+}
+
+.menu{
+    background-color: rgb(247, 35, 35);
+    display:flex;
+    justify-content : flex-start;
+}
+
+.grid{
+    /*background-color: rgb(247, 35, 35);*/
+    display:flex;
+    justify-content : flex-start;
+  justify-content: space-evenly;
+}
+.footer{
+    /*background-color: rgb(247, 35, 35);*/
+    display:flex;
+    justify-content : flex-end;
+    flex-wrap: wrap
+}
+p,h2{
+    text-align: center
+}
+.item{
+    align-self: baseline ;
+}
